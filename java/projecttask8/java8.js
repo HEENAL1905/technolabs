@@ -1,7 +1,7 @@
 function MagicEightBall(){
-var userName="";
+let userName="";
 userName!="" ? console.log(`hello ,${userName}`) : console.log("hello");
-var userQuestion = "will I get married this year ";
+let userQuestion = "will I get married this year ";
 console.log(`${userName} asked ${userQuestion}`);
 var randomNumber = Math.floor(Math.random() * 8);
 var eightBall="";
