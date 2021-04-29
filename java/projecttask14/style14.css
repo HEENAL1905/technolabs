@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: "Croissant One";
-  src: ("fonts/CroissantOne-Regular.ttf") format('truetype');
+  src: url("fonts/CroissantOne-Regular.ttf") format('truetype');
 }
 
 html {
