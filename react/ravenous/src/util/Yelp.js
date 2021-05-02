@@ -1,11 +1,5 @@
-/*
-Client ID
-t3v3WWazMOpFfmbT_kQusA
 
-API Key
-C9eMB_VBxsW_jtCjXALIqWPVUsW7B9uKOQjR6CGlma07N7W7mSsDx8SxA0Mb7MW6--H6yqB0VO-5zAtDk8KuiN2pxFmQDtesuU4vZZ9vQzGbtsLVULMwNiafMMZ-W3Yx
-*/
-const apikey = 'C9eMB_VBxsW_jtCjXALIqWPVUsW7B9uKOQjR6CGlma07N7W7mSsDx8SxA0Mb7MW6--H6yqB0VO-5zAtDk8KuiN2pxFmQDtesuU4vZZ9vQzGbtsLVULMwNiafMMZ-W3Yx';
+const apikey = '';
 const Yelp = {
   search(term, location, sortBy) {
     return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
